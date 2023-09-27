@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    background-color: royalblue;
+    color: goldenrod;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    background-color: navy;
+    color:goldenrod;
+}
+footer {
+    color: antiquewhite;
+}
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 150%;
+    color: antiquewhite;
+}
+
+h3 {
+    font-size: 125%;
+}
+
+hgroup {
+    align-items:end
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+    padding: 1%;
+}
+nav a {
+    color: antiquewhite;
+    border-color: royalblue;
+    border-radius: 50px;
+    padding: 5%;
+}
